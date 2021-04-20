@@ -1,0 +1,19 @@
+{
+  "name": "muzeec",
+  "version": "1.0.0",
+  "description": "Play with some music",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oriool/muzeec.git"
+  },
+  "author": "Oriol Buqueras Solsona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oriool/muzeec/issues"
+  },
+  "homepage": "https://github.com/oriool/muzeec#readme"
+}
