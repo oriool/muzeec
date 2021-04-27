@@ -10,6 +10,15 @@ export default class Key {
     }
 
     draw(ctx) {
+        ctx.fillStyle = '#0f0';
         ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
+    }
+
+    update(deltaTime) {
+        if (!deltaTime) {
+            return;
+        }
+
+        this.position.x += 0.03 * deltaTime;
     }
 }
